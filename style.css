@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Eczar', serif;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+
+body {
+    background-image: url(./assests/bg.png);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/* nav bar  */
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+a {
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+    font-family: 'Eczar', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.btn {
+    background-color: rgb(248, 44, 108);
+    padding: 5px 35px;
+    font-family: 'Eczar', serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid rgb(248, 44, 108);;
+    background-color: aliceblue;
+    color: rgb(248, 44, 108);
+    border-radius: 5px;
+}
+/* main section */
+.main {
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.heading {
+    color: rgb(255, 196, 0);
+    font-family: 'Dela Gothic One', cursive;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 100;
+    line-height: 80px;
+}
+.scroll-img{
+    position: fixed;
+    bottom: 0;
+    left: 1154px;
+}
+.scroll-img>img{
+    width: 100px;
+}
+.btn2{
+    margin-top: 40px;
+}
